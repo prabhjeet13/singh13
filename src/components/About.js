@@ -1,6 +1,5 @@
 import React from "react";
 import psg  from '../images/psg.png'
-import prabhjeet_singh_gambhir from '../images/Prabhjeet_Singh_Gambhir_Resume.pdf';
 function About() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
@@ -17,7 +16,7 @@ function About() {
         I have worked on various projects such as Online Judge and Ed-tech and Medisphere platforms and many more to go.
         
       </p>
-      <a href= {prabhjeet_singh_gambhir} target="_blank"  rel="noopener noreferrer">
+      <a href= "https://drive.google.com/file/d/14rFcEVudKuAKD2HADjLI-Gi5nred2o9a/view?usp=sharing" target="_blank"  rel="noopener noreferrer">
         <button className="mt-6 bg-yellow-500 text-gray-900 py-3 px-6 rounded-lg shadow-lg hover:bg-yellow-400 hover:scale-90 transition-all duration-300">
           Download Resume 
         </button>
