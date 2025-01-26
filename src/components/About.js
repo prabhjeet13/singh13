@@ -1,6 +1,6 @@
 import React from "react";
 import psg  from '../images/psg.png'
-import prabhjeet_singh_gambhir from '../images/Prabhjeet_Singh_Gambhir_Resume.pdf';
+import prabhjeet_singh_gambhir from '../../src/images/Prabhjeet_Singh_Gambhir_Resume.pdf';
 function About() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
