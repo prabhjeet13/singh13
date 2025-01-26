@@ -35,7 +35,7 @@ const App = () => {
         <section id="about" className="py-20 bg-gray-100">
            <About/> 
         </section>
-        <section id="about" className="py-20 bg-gray-100">
+        <section id="contact" className="py-20 bg-gray-100">
            <Contact/>
         </section>
         <section id = "projects">

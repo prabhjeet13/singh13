@@ -7,9 +7,9 @@ import github from '../images/github.png';
 import { MdOutlineMailOutline } from "react-icons/md";
 const Contact = () => {
   return (
-    <section id="contact" className="p-32 bg-gradient-to-r from-purple-600 to-cyan-200">
+    <div id="contact" className="p-32 bg-gradient-to-r from-purple-600 to-cyan-200">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-8">Connect with Me</h2>
+        <h2 className="text-3xl font-bold mb-8 uppercase">Connect with Me</h2>
         <div className="flex justify-center space-x-6">
           <a
             href="https://github.com/prabhjeet13"
@@ -41,7 +41,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
